@@ -19,13 +19,13 @@ To have `man.q` loaded with every q session, specify it in environment variable 
 For example, an alias for `q` might be:
 
 ```bash
-$ alias q='export QHOME=~/q/v3.7; export QINIT=$QHOME/man.q; rlwrap -r $QHOME/m64/q'
+$ alias q='export QHOME=~/q/v4.0; export QINIT=$QHOME/man.q; rlwrap -r $QHOME/m64/q'
 ```
 
 
     $ q
-    KDB+ 3.7t 2019.12.12 Copyright (C) 1993-2019 Kx Systems
-    m64/ 4()core 8192MB sjt mint.local 192.168.0.10 EXPIRE 2020.04.01 stephen@kx.com #55032
+    KDB+ 4.0 2020.07.15 Copyright (C) 1993-2020 Kx Systems
+    m64/ 4()core 8192MB sjt mint.local 192.168.0.10 EXPIRE 2021.09.08 stephen@kx.com #55032
     q)man "--help"
     "https://code.kx.com/q/about/man"
     q)
